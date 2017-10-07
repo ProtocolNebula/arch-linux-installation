@@ -9,6 +9,25 @@ Let's start.
 
 This assumes your target disk is /dev/sda, you are running UEFI, you want rEFInd because it's cool, you are wired into ethernet for the install process, you use US keyboard, and mostly understand english
 
+
+------- Network
+If you can connect to network via wifi/ethernet, link your Android Phone via usb
+
+After 10/20 seconds try to ```ping 8.8.8.8```
+
+If not working...
+
+```bash
+ip addr
+```
+
+You will see some connections, the first will be ```lo```, one of them will be like ```enp0...``` (**enp0s29u1u1** in my case)
+
+```
+dhcpcd enp0s29u1u1
+```
+
+
 ------- Partitioning
 
 cgdisk /dev/sda
