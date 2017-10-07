@@ -16,22 +16,27 @@ cgdisk /dev/sda
 	/dev/sda1 /boot 100M
 	/dev/sda2 /     $REST_OF_HDD
 
+```bash
 mkfs.vfat -F 32 /dev/sda1
 mkfs.ext4 /dev/sda2
 
 mount /dev/sda2 /mnt
 mkdir /mnt/boot
 mount /dev/sda1 /mnt/boot
+```
 
 ------- Actual install
 Install all packages needed (add what you need!)
 
+```bash
 pacstrap -i /mnt base base-devel refind-efi xorg-server gnome gnome-extra firefox networkmanager htop zsh grml-zsh-config
 
 genfstab -U /mnt >> /mnt/etc/fstab 
+```
 
 ------- Get in there to configure
 
+```bash
 arch-chroot /mnt /bin/zsh
 
 echo "en_US.UTF-8 UTF-8" > /etc/locale.gen
@@ -40,31 +45,40 @@ echo LANG=en_US.UTF-8 > /etc/locale.conf
 locale-gen
 
 echo arch > /etc/hostname
+```
 
 ------- Users
 
+```bash
 passwd
 chsh root -s /bin/zsh
 
 useradd -m -G wheel -s /bin/zsh user
 passwd user
-
+``` 
 ------- Enable services
 
+```bash
 systemctl enable NetworkManager
 systemctl enable gdm
+```
 
 ------- Bootloader
 
+```bash
 refind-install 
+```
 
 ------- Kernel cmdline
 Basically edit your boot options to be 'rw root=/dev/sda2', as sometimes rEFInd doesn't make this automatically
 
+```bash
 nano /boot/refind_linux.conf 
+```
 
 ------- Git out
 
+```bash
 exit
 reboot
-
+```
