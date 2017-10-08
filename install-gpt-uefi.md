@@ -106,5 +106,5 @@ reboot
 
 
 ## Next steps
-You should see **[postinstall](postinstall/)** folder to install things such "Desktop enviornment" (like [xfce](postintall/Desktop-xfce.md))
+You should see **[postinstall](postinstall/)** folder to install things such "Desktop enviornment" (like [xfce](postinstall/Desktop-xfce.md))
 
