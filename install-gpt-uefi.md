@@ -1,13 +1,14 @@
-# Install arch linux UEFI
+# Install arch linux UEFI and/or GPT disks
 
 Original guide: https://github.com/p4block/Yet-another-Arch-install-guide
 
-**CURRENT THIS IS A COPY PASTE**
+**CURRENT THIS IS A COPY PASTE WITH SOME MODIFICATIONS**
 
 
 Let's start. 
 
 This assumes your target disk is /dev/sda, you are running UEFI, you want rEFInd because it's cool, you are wired into ethernet for the install process, you use US keyboard, and mostly understand english
+
 
 
 ## Network
