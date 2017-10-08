@@ -10,6 +10,12 @@ Let's start.
 This assumes your target disk is /dev/sda, you are running UEFI, you want rEFInd because it's cool, you are wired into ethernet for the install process, you use US keyboard, and mostly understand english
 
 
+## Keyboard
+
+If need to change keyboard distribution execute: (change **es** to your locale)
+```
+loadkeys es
+```
 
 ## Network
 
