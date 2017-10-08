@@ -97,9 +97,14 @@ Basically edit your boot options to be 'rw root=/dev/sda2', as sometimes rEFInd 
 nano /boot/refind_linux.conf 
 ```
 
-## Git out
+## Rebooting to new installed system
 
 ```bash
 exit
 reboot
 ```
+
+
+## Next steps
+You should see **[postinstall](postinstall/)** folder to install things such "Desktop enviornment" (like [xfce](postintall/Desktop-xfce.md))
+
