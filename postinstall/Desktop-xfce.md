@@ -27,3 +27,7 @@ sudo pacman -S gamin xfce4-notifyd network-manager-applet volumeicon
 - **notifyd**: Notification support
 - **volumeicon**:  Audio settings
 
+
+### Keyboard locale
+
+If your locale is incorrect, open **Keyboard Settings** -> **Distribution** and change **Keyboard Distribution** (maybe you have to uncheck **Keyboard model**)
