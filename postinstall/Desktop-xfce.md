@@ -21,7 +21,7 @@ systemctl enable lightdm
 
 ### Recommended
 ```bash
-sudo pacman -S gamin xfce4-notifyd network-manager-applet volumeicon
+sudo pacman -S gamin xfce4-notifyd network-manager-applet volumeicon xarchiver
 ```
 - **gamin**: File and directory monitor
 - **notifyd**: Notification support
