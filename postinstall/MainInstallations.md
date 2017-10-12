@@ -18,7 +18,12 @@ From now I only explain the main packages that I use, to install ALL (and maybe 
 
 **REMEMBER:** Execute this with your user, NOT WITH ROOT (sudo)
 ```bash
-pacaur -Suy pulseaudio gedit banshee
+pacaur -Suy pulseaudio gedit banshee qt4 file-roller p7zip zip unzip unrar
+```
+
+**ALTERNATIVE FOR file-roller FILE MANAGER FOR ZIPS:**
+```bash
+pacaur -Suy xarchiver
 ```
 
 ## Fix sound (pulseaudio)
@@ -29,3 +34,9 @@ Media player
 
 ## Gedit
 A graphical text editor
+
+##xarchiver
+Compressed file manager (tar, zip...)
+
+##qt4 (libqtgui4)
+Graphical library
