@@ -35,7 +35,7 @@ I recommend the following plugins (install it from netbeans plugin manger **Tool
 * Netbeans Use System Desktop
 * LineLocator
 * Copy and Paste History
-* Show breadcrum at the top
+* Show breadcrumbs at the top
 * Show path in titlebar
 * Markdown Support
 * QuickOpener
