@@ -1,0 +1,8 @@
+# Fixing Brightness bug
+
+This can be one of the most "difficult" things to fix.
+
+Full guide with all alternatives can be found here: https://wiki.archlinux.org/index.php/backlight
+
+
+I will update this guide when it works nice on my computer.
