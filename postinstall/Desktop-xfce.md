@@ -8,8 +8,10 @@ https://blog.desdelinux.net/instalacion-de-xfce-en-arch-linux
 ### Minimal
 
 #### Desktop enviornment
+**gvs** and **polkit-gnome** will auto detect the USB devices
+
 ```bash
-sudo pacman -S xfce4 xfce4-goodies
+sudo pacman -S xfce4 xfce4-goodies gvfs polkit-gnome
 ```
 
 #### Boot manager (login window)
