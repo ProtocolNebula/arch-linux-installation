@@ -21,22 +21,20 @@ From now I only explain the main packages that I use, to install ALL (and maybe 
 pacaur -Suy pulseaudio gedit banshee qt4 file-roller p7zip zip unzip unrar
 ```
 
-**ALTERNATIVE FOR file-roller FILE MANAGER FOR ZIPS:**
-```bash
-pacaur -Suy xarchiver
-```
+## Information packages
+This section only explain some previous packages
 
-## Fix sound (pulseaudio)
+### Fix sound (pulseaudio)
 To fix sound we will install ```pulseaudio```
 
-## Banshee
+### Banshee
 Media player
 
-## Gedit
+### Gedit
 A graphical text editor
 
-##xarchiver
+### xarchiver
 Compressed file manager (tar, zip...)
 
-##qt4 (libqtgui4)
+### qt4 (libqtgui4)
 Graphical library
