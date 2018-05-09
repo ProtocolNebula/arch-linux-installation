@@ -1,0 +1,9 @@
+{
+    "explorer.autoReveal": false,
+    "problems.autoReveal": false,
+    "editor.minimap.enabled": false,
+    "search.location": "panel",
+    "window.zoomLevel": 0,
+
+    "window.title": "${dirty}${rootName}${separator}${activeEditorShort}${separator}${appName}",
+}
