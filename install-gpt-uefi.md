@@ -13,7 +13,7 @@ This assumes your target disk is /dev/sda, you are running UEFI, you want rEFInd
 ## Keyboard
 
 If need to change keyboard distribution execute: (change **es** to your locale)
-```
+```bash
 loadkeys es
 ```
 
@@ -38,10 +38,27 @@ dhcpcd enp0s29u1u1
 
 ## Partitioning
 
+```bash
 cgdisk /dev/sda
+```
+### 1.1. If disk clean / you have NOT other EFI partition
 
 	/dev/sda1 /boot 100M
-	/dev/sda2 /     $REST_OF_HDD
+	/dev/sda2 /     $CUSTOM_SPACE
+
+### 1.2. Install with another EFI partition
+
+	/dev/sdaX ...
+	/dev/sdaX EFI (already working)
+	...
+	/dev/sda5 /boot 100M - OUR EFI (wi will have 2 EFI, this will be the main)
+	/dev/sda6 /		$CUSTOM_SPACE - Arch installation
+
+### 2. Formatting partitions
+
+**IMPORTANT:** Change `sda1` and `sda2` with the corresponding partitions.
+
+If you installing over an existing windows EFI, this should be `sda5` and `sda6`.
 
 ```bash
 mkfs.vfat -F 32 /dev/sda1
