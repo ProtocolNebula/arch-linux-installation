@@ -1,12 +1,5 @@
 # Main installations for Arch Linux (after install)
 
-**Is recommended to use ```pacaur```**, so the first thing that we will install is "pacaur":
-
-## Pacaur (DEPECRATED)
-Pacaur was an alternative to ```pacman``` (include pacman repository).
-If you see "pacaur" in some of thos tutorials, try to change it to "sudo pacman"
-
-# Other installations
 From now I only explain the main packages that I use, to install ALL (and maybe another more), you can run:
 
 **REMEMBER:** Execute this with your user, NOT WITH ROOT (sudo)

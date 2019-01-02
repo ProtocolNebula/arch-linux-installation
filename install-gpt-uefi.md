@@ -127,6 +127,13 @@ exit
 reboot
 ```
 
+## Disabling Beep on "error" keyboard key press
+
+Put this in `.basrc`
+
+```bash
+xset b off 
+```
 
 ## Next steps
 You should see **[postinstall](postinstall/)** folder to install things such "Desktop enviornment" (like [xfce](postinstall/Desktop-xfce.md))
