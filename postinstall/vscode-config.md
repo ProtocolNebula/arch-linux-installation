@@ -3,6 +3,7 @@
 This is my main settings for VS Code.
 
 ## Plugins
+ - EditorConfig
  - Angular Language Service (angular.ng-template)
  - angular2-inline (natewallace.angular2-inline)
  - Bracket Pair Colorizer (coenraads.bracket-pair-colorizer)
@@ -18,4 +19,7 @@ This is my main settings for VS Code.
  - Sass (robinbentley.sass-indented)
  - TODO Highlight (wayou.vscode-todo-highlight)
  - vscode-icons (robertohuertasm.vscode-icons)
-
+ - Peacock (johnpapa.vscode-peacock)
+ - PHP DocBlocker
+ - PHP Inteliphense
+ - PHP IntelliSense (felixfbecker.php-intellisense)
